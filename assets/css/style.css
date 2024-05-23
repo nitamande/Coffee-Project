@@ -79,10 +79,13 @@ margin: 50px 50px;
 
 .getchance{
     width:100%;
-    height:100%;
+
     margin-bottom: 100px;
-    background: url(../img/get5.avif);
+    background-color: #603807;
+    background: linear-gradient(rgb(60, 38,07),rgba(93, 89, 89, 0.5)),url(../img/get5.avif);
     background-size: cover;
+    
+
 
 }
 
@@ -103,14 +106,34 @@ margin: 50px 50px;
 .subscribe{
     width:100%;
     height: 100%;
-    background: url(../img/sub.jpg);
+    background: url(../img/sbc.jpg);
     background-size: cover;
 
 }
 
 
 
+.bg-coffee{
+    background-color: #603807;
+}
 
+.bg-white{
+    background-color: #FFF9F1;
+    
+}
 
+#form2 {
+    display: flex;
+    margin-left: 350px;
+    
+}
+
+#form2 .tx{
+    background: #fff;
+}
+
+#form2 input{
+width:280px;
+}
 
 
